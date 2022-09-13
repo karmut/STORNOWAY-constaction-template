@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-image: url(./BG.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper {
+  height: 100%;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  color: white;
+  display: inline;
+  margin-right: 450px;
+}
+
+.header-menu {
+  padding-top: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  margin-right: 38px;
+}
+
+.link:hover {
+  border-bottom: 3px solid white;
+}
