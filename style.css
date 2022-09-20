@@ -32,6 +32,7 @@ body {
   padding: 0 38px;
   font-size: 34px;
   display: flex;
+  text-transform: uppercase;
 }
 
 .menu-item {
@@ -98,4 +99,61 @@ body {
   text-align: center;
   padding: 23px 0 23px 0;
   margin: auto;
+}
+
+.project {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.project-container {
+  height: 100vh;
+}
+.project-title {
+  font-size: 64px;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 132px;
+  padding-bottom: 70px;
+}
+.photo {
+  width: 335px;
+  margin-right: 6px;
+}
+
+.photo:last-child {
+  margin-right: 0;
+}
+
+.photo3 {
+  height: 226.66px;
+}
+
+.gallery {
+  height: 240px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text2 {
+  color: white;
+  text-align: center;
+}
+
+.button-see-more {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 70px;
 }
